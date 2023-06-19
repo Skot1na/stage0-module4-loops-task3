@@ -5,7 +5,6 @@ public class FibonacciSeries {
         int firstTerm = 0;
         int secondTerm = 1;
 
-        System.out.println("Fibonacci Series:");
 
         for (int i = 1; i <= lastFibonacci; i++) {
             System.out.println(firstTerm);
@@ -13,6 +12,8 @@ public class FibonacciSeries {
             int nextTerm = firstTerm + secondTerm;
             firstTerm = secondTerm;
             secondTerm = nextTerm;
+            System.out.println(secondTerm);
         }
+
     }
 }
