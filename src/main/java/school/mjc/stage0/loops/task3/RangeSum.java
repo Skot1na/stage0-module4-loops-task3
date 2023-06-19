@@ -2,8 +2,10 @@ package school.mjc.stage0.loops.task3;
 
 public class RangeSum {
     public void printSumInclusive(int firstBoarder, int secondBoarder) {
-        for (firstBoarder = 0; firstBoarder <= secondBoarder; firstBoarder++){
-            System.out.println(firstBoarder);
-        }
+        int sum = 0;
+        for (int i = firstBoarder; i <= secondBoarder; i++)
+            sum = sum + i;
+        System.out.println (sum);
     }
 }
+

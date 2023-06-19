@@ -6,8 +6,7 @@ public class GreatestCommonDivisor {
         for (int i = 1; i <= first && i <= second; i++){
             if (first % i == 0 && second % i == 0)
                 number = i;
-            System.out.println(number);
         }
-
+        System.out.println(number);
     }
 }
